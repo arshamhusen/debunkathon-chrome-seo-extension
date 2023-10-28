@@ -150,7 +150,7 @@ function App() {
 
         <div className="flex flex-col space-y-2 text-center justify-center items-center w-full">
           <a
-            href={`http://192.168.100.72:5173/fact-submit?title=${title}`}
+            href={`http://localhost:5173/fact-submit?title=${title}`}
             target="_blank"
             rel="noreferrer"
             className="bg-gradient-to-r from-pink-900 to-orange-700 w-full text-white p-2 rounded-md"
